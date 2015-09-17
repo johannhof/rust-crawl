@@ -68,7 +68,8 @@ fn main() {
                 let link = {
                     data.lock().unwrap().pop()
                 };
-                println!("Starting to download this at thread {}", i); TODO actually download
+                println!("Starting to download this at thread {}", i);
+                // TODO actually download
                 thread::sleep_ms(2000);
                 match link {
                     Some(d) => println!("Finished downloading {} at thread {}", d, i),
