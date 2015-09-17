@@ -1,0 +1,9 @@
+[package]
+name = "rust-crawler"
+version = "0.1.0"
+authors = ["Johann <git@johann-hofmann.com>"]
+
+[dependencies]
+hyper = "0.6.13"
+html5ever = "0.2.4"
+tendril = "0.1.5"
